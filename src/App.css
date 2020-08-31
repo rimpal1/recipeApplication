@@ -1,0 +1,65 @@
+.app {
+  height: 100vh;
+  background: lightblue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.tweet {
+
+  background: white;
+  height: 300px;
+  width: 300px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.red {
+  color: red;
+  font-size: 60px;
+}
+
+.App {
+  min-height: 100vh;
+  background-image: linear-gradient(to top, #d5dee7 0%, #ffafbd 0%, #c9ffbf 100%);
+}
+
+.search-form {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar {
+  width: 50%;
+  border: none;
+  padding: 10px;
+  border-radius: 100px;
+
+}
+
+.recipe {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-items: center;
+
+
+}
+
+.search-button {
+  background-color: #ffafbd;
+  width: 100px;
+  height: 40px;
+  border-radius: 60px;
+  font-size: 15px;
+
+
+
+}
